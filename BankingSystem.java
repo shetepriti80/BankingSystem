@@ -6,7 +6,7 @@ public class BankingSystem {
 
     static final String URL = "jdbc:mysql://localhost:3306/OOP_priti";
     static final String USER = "root";
-    static final String PASSWORD = "Priti@123"; 
+    static final String PASSWORD = "------"; //enter ur password
 
     static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(URL, USER, PASSWORD);
